@@ -1,0 +1,24 @@
+Name:                th-subst
+Version:             0.1
+Synopsis:            Substution engine for Template Haskell Syntax.
+Description:	     Substution engine for Template Haskell Syntax.
+Category:            Language
+License:             BSD3
+License-file:        LICENSE
+Author:              Andy Gill
+Maintainer:          Andy Gill <andygill@ku.edu>
+Build-Depends:       base
+Stability:	     alpha
+build-type: 	     Simple
+Cabal-Version:       >= 1.2
+
+Library
+  Build-Depends:        base, containers, er-rewrite, template-haskell
+  Exposed-modules:
+      Language.Haskell.TH.ER.Subst
+
+--Executable test
+--  Main-Is:        Main.hs
+--  Hs-Source-Dirs: ., test
+--  buildable: False
+
